@@ -46,7 +46,13 @@ README.md               This file
 ### GitHub Pages
 
 1. Create `likky/ifloat-privacy` on GitHub.
-2. Push this folder to `main`.
+2. Push this folder to `main`:
+
+   ```sh
+   git remote add origin https://github.com/likky/ifloat-privacy.git
+   git push -u origin main
+   ```
+
 3. Settings → Pages → Deploy from branch → `main` / root.
 4. Confirm the four URLs resolve over HTTPS without login.
 
