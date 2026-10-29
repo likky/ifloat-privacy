@@ -1,10 +1,10 @@
 # iFloat Privacy & Terms
 
-Static privacy policy and terms of use for **iFloat（iFloat实时语音翻译）**.
+Static privacy policy and terms of use for **iFloat实时语音翻译（EN: iFloat Live Translation）**.
 
-- App: iFloat / iFloat实时语音翻译
+- App: iFloat实时语音翻译 / iFloat Live Translation
 - Platform: iOS
-- Bundle ID: `com.osofts.vstdemo`
+- Bundle ID: `com.osofts.ifloat`
 - Developer: Lijia
 - Contact: tianya1110@gmail.com
 - Effective: 2026-10-22

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>隐私政策 · iFloat 实时语音翻译</title>
+<title>隐私政策 · iFloat实时语音翻译</title>
 <meta name="description" content="iFloat（iFloat实时语音翻译）隐私政策：语音、图像、视频和文字均在你的设备上处理；无需账号，不上传内容，不含广告与分析 SDK。">
 <meta name="robots" content="index,follow">
 <meta name="referrer" content="no-referrer">
@@ -34,13 +34,13 @@
 
 <main id="main">
   <div class="hero">
-    <p class="eyebrow">iFloat · 实时语音翻译</p>
+    <p class="eyebrow">iFloat实时语音翻译</p>
     <h1>隐私政策</h1>
     <p class="lead">你的语音、图像、视频和文字只在这台设备上处理。我们不需要账号，也不运营接收这些内容的服务器。</p>
     <div class="meta">
       <span class="pill">生效日期：2026 年 10 月 22 日</span>
-      <span class="pill">最后更新：2026 年 10 月 22 日</span>
-      <span class="pill">版本 1.0</span>
+      <span class="pill">最后更新：2026 年 10 月 29 日</span>
+      <span class="pill">版本 1.1</span>
       <span class="pill">适用于 iOS</span>
     </div>
     <ul class="badges" aria-label="关键结论">
@@ -72,7 +72,7 @@
         <li><a href="#versions">14. 版本记录</a></li>
       </ol>
       <div class="toc-foot">
-        <p>本政策适用于 iOS 版 iFloat（Bundle ID：com.osofts.vstdemo）。</p>
+        <p>本政策适用于 iOS 版 iFloat（Bundle ID：com.osofts.ifloat）。</p>
         <p><a href="terms.html">使用条款</a> · <a href="privacy-en.html" lang="en">English</a></p>
       </div>
     </nav>
@@ -136,7 +136,7 @@
           <li><strong>麦克风音频</strong>：用于实时转写和翻译；原始音频默认不保存。</li>
           <li><strong>相机画面与相册图片</strong>：用于文字识别和翻译；照片默认不保存，只保存识别出的文本。</li>
           <li><strong>你选择的视频/音频文件</strong>：用于提取音轨、转写、翻译和字幕合成。</li>
-          <li><strong>系统音频与屏幕画面</strong>：仅在你主动开始“听译”或“录屏”并完成系统选择后处理。</li>
+          <li><strong>系统音频与屏幕画面</strong>：仅在你主动开始“悬浮翻译”或“录屏”并完成系统选择后处理。</li>
           <li><strong>输入文本与翻译结果</strong>：用于显示、朗读和本机历史记录。</li>
           <li><strong>设置与偏好</strong>：语言、外观、朗读声音、自动保存开关等。</li>
         </ul>
@@ -154,7 +154,7 @@
         <div class="faq">
           <details>
             <summary>你们会录音吗？</summary>
-            <p>只有在你主动开始同声传译、录音或录屏并授予麦克风权限时，应用才会采集音频。音频用于本机转写；原始麦克风音频默认不保存。你若开启录屏并勾选麦克风，麦克风声音会被混合进你主动保存的录屏视频。</p>
+            <p>只有在你主动开始实时翻译、录音或录屏并授予麦克风权限时，应用才会采集音频。音频用于本机转写；原始麦克风音频默认不保存。你若开启录屏并勾选麦克风，麦克风声音会被混合进你主动保存的录屏视频。</p>
           </details>
           <details>
             <summary>语音和文字会上传吗？</summary>
@@ -192,12 +192,13 @@
               <tr><th>功能</th><th>处理的数据</th><th>处理位置</th><th>本机留存</th><th>上传</th></tr>
             </thead>
             <tbody>
-              <tr><td data-label="功能"><strong>文字翻译</strong></td><td data-label="处理的数据">你输入的文本、语言对</td><td data-label="处理位置">本机 Apple Translation</td><td data-label="本机留存">历史记录（可关闭自动保存）</td><td data-label="上传">否</td></tr>
-              <tr><td data-label="功能"><strong>拍照 / 相册翻译</strong></td><td data-label="处理的数据">图像、识别出的文字</td><td data-label="处理位置">本机 Apple Vision</td><td data-label="本机留存">只保存识别文本，不保存照片</td><td data-label="上传">否</td></tr>
-              <tr><td data-label="功能"><strong>同声传译</strong></td><td data-label="处理的数据">麦克风音频、转写文本</td><td data-label="处理位置">本机 Apple Speech</td><td data-label="本机留存">文本历史；原始音频不保存</td><td data-label="上传">否</td></tr>
-              <tr><td data-label="功能"><strong>听译</strong></td><td data-label="处理的数据">你选择的系统音频、转写文本</td><td data-label="处理位置">本机 ScreenCaptureKit / ReplayKit + Speech</td><td data-label="本机留存">文本历史；原始音频不保存</td><td data-label="上传">否</td></tr>
+              <tr><td data-label="功能"><strong>对话翻译</strong></td><td data-label="处理的数据">你输入的文本、语言对</td><td data-label="处理位置">本机 Apple Translation</td><td data-label="本机留存">历史记录（可关闭自动保存）</td><td data-label="上传">否</td></tr>
+              <tr><td data-label="功能"><strong>拍照翻译</strong></td><td data-label="处理的数据">图像、识别出的文字</td><td data-label="处理位置">本机 Apple Vision</td><td data-label="本机留存">只保存识别文本，不保存照片</td><td data-label="上传">否</td></tr>
+              <tr><td data-label="功能"><strong>实时翻译</strong></td><td data-label="处理的数据">麦克风音频、转写文本</td><td data-label="处理位置">本机 Apple Speech</td><td data-label="本机留存">文本历史；原始音频不保存</td><td data-label="上传">否</td></tr>
+              <tr><td data-label="功能"><strong>悬浮翻译</strong></td><td data-label="处理的数据">你选择的系统音频、转写文本</td><td data-label="处理位置">本机 ScreenCaptureKit / ReplayKit + Speech</td><td data-label="本机留存">文本历史；原始音频不保存</td><td data-label="上传">否</td></tr>
               <tr><td data-label="功能"><strong>视频加字幕</strong></td><td data-label="处理的数据">你选择的视频、音轨、字幕</td><td data-label="处理位置">本机 MediaKit + Speech + Translation</td><td data-label="本机留存">导入副本、导出视频、SRT 存在 App 容器</td><td data-label="上传">否</td></tr>
               <tr><td data-label="功能"><strong>屏幕录制</strong></td><td data-label="处理的数据">屏幕画面、可选麦克风</td><td data-label="处理位置">本机 ScreenCaptureKit / ReplayKit</td><td data-label="本机留存">视频存在 App 容器；保存相册需你操作</td><td data-label="上传">否</td></tr>
+              <tr><td data-label="功能"><strong>OCR 表格识别</strong></td><td data-label="处理的数据">你选择的图片、识别出的行列文字</td><td data-label="处理位置">本机 Apple Vision</td><td data-label="本机留存">原图不保存；导出的 Excel / 图片存在 App 容器</td><td data-label="上传">否</td></tr>
               <tr><td data-label="功能"><strong>朗读</strong></td><td data-label="处理的数据">待朗读的文本</td><td data-label="处理位置">本机 AVSpeechSynthesizer</td><td data-label="本机留存">只保存声音偏好</td><td data-label="上传">否</td></tr>
               <tr><td data-label="功能"><strong>历史记录</strong></td><td data-label="处理的数据">文本、字幕、视频副本</td><td data-label="处理位置">本机 App 私有目录</td><td data-label="本机留存">直到你删除记录、清空或卸载</td><td data-label="上传">否</td></tr>
               <tr><td data-label="功能"><strong>会员订阅</strong></td><td data-label="处理的数据">商品、交易、权益状态</td><td data-label="处理位置">本机 StoreKit + Apple</td><td data-label="本机留存">由 Apple 管理；我们不接触支付信息</td><td data-label="上传">否</td></tr>
@@ -207,8 +208,8 @@
         </div>
         <h3>几个容易误解的点</h3>
         <ul>
-          <li><strong>原始麦克风音频不落盘。</strong> 同声传译和听译只保存转写出的文字；如果你开启录屏并勾选麦克风，麦克风声音会进入你主动保存的录屏视频。</li>
-          <li><strong>照片不落盘。</strong> 拍照/相册翻译只保存识别出的文字；应用不会把你的照片复制进历史记录。</li>
+          <li><strong>原始麦克风音频不落盘。</strong> 实时翻译和悬浮翻译只保存转写出的文字；如果你开启录屏并勾选麦克风，麦克风声音会进入你主动保存的录屏视频。</li>
+          <li><strong>照片不落盘。</strong> 拍照翻译只保存识别出的文字；应用不会把你的照片复制进历史记录。</li>
           <li><strong>视频副本会落盘。</strong> 视频加字幕会把导入的视频副本、导出的字幕视频和 SRT 保存在 App 私有目录，方便你再次编辑；删除记录会一并删除这些副本。</li>
           <li><strong>分享是你主动发起的。</strong> 当你使用系统分享面板导出文件时，文件会交给你选择的第三方应用或服务；该第三方的处理受其隐私政策约束。</li>
           <li><strong>语言资源由系统下载。</strong> 首次使用某些翻译/语音语言时，iOS 可能连接 Apple 下载语言包。我们不会收到你的文本、音频或图像。</li>
@@ -224,7 +225,7 @@
         <div class="permissions">
           <div class="permission">
             <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg>麦克风</h3>
-            <p>用于同声传译、听译、录屏时收录声音。音频只在本机处理，原始麦克风音频默认不保存。</p>
+            <p>用于实时翻译、悬浮翻译、录屏时收录声音。音频只在本机处理，原始麦克风音频默认不保存。</p>
             <span class="tag">拒绝后：无法录音或录屏收录麦克风</span>
           </div>
           <div class="permission">
@@ -244,8 +245,8 @@
           </div>
           <div class="permission">
             <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8"/><path d="M12 16v4"/></svg>屏幕与系统音频</h3>
-            <p>仅在你主动开始“听译”或“录屏”时，由系统选择器让你选择要共享的屏幕或窗口。选择前不会有画面或声音被采集。</p>
-            <span class="tag">拒绝后：听译/录屏不可用，其他功能不受影响</span>
+            <p>仅在你主动开始“悬浮翻译”或“录屏”时，由系统选择器让你选择要共享的屏幕或窗口。选择前不会有画面或声音被采集。</p>
+            <span class="tag">拒绝后：悬浮翻译/录屏不可用，其他功能不受影响</span>
           </div>
           <div class="permission">
             <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-6-6Z"/><path d="M14 3v6h6"/></svg>文件与照片选择</h3>
@@ -315,7 +316,7 @@
               <tr><td data-label="能力">Translation</td><td data-label="用途">文本翻译</td><td data-label="数据处理">在本机处理；语言包由系统下载</td></tr>
               <tr><td data-label="能力">Vision</td><td data-label="用途">文字识别</td><td data-label="数据处理">在本机处理</td></tr>
               <tr><td data-label="能力">Photos / PhotosPicker</td><td data-label="用途">选择图片、保存副本</td><td data-label="数据处理">选择器在 App 外运行；仅保存你主动确认的内容</td></tr>
-              <tr><td data-label="能力">ScreenCaptureKit / ReplayKit</td><td data-label="用途">听译、录屏</td><td data-label="数据处理">仅在你通过系统选择器确认后采集；在本机处理</td></tr>
+              <tr><td data-label="能力">ScreenCaptureKit / ReplayKit</td><td data-label="用途">悬浮翻译、录屏</td><td data-label="数据处理">仅在你通过系统选择器确认后采集；在本机处理</td></tr>
               <tr><td data-label="能力">系统分享面板</td><td data-label="用途">导出 SRT、视频、文本</td><td data-label="数据处理">由你选择接收方；接收方的处理受其隐私政策约束</td></tr>
             </tbody>
           </table>
@@ -449,7 +450,7 @@
   <div class="footer-inner">
     <div>
       <p>© 2026 Lijia · iFloat</p>
-      <p class="small">最后更新：2026 年 10 月 22 日</p>
+      <p class="small">最后更新：2026 年 10 月 29 日</p>
     </div>
     <nav class="footer-links" aria-label="页脚">
       <a href="privacy.html">隐私政策</a>

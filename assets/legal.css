@@ -239,10 +239,12 @@ a:hover {
 .eyebrow {
   margin: 0 0 10px;
   color: var(--brand-text);
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  /* 这行放的是**应用全名**（iFloat Live Translation / iFloat实时语音翻译），
+     不能被 text-transform 改成全大写 —— 品牌里的 camelCase 会丢。
+     去掉全大写后，原来的 0.1em 字距对混合大小写太散，收到 0.02em。 */
+  letter-spacing: 0.02em;
 }
 
 .hero h1 {
@@ -874,6 +876,15 @@ code {
   }
 }
 
+/* 功能表首列是功能名（对话翻译 / OCR 表格识别…），列宽不够时会被挤成
+   「对话翻 / 译」这种两行。给它一个下限并不换行；下方的移动端卡片布局里
+   会重置回正常换行（那张表在手机上不是表格，是卡片）。 */
+table.responsive th:first-child,
+table.responsive td:first-child {
+  width: 1%;
+  white-space: nowrap;
+}
+
 @media (max-width: 640px) {
   .header-inner {
     padding: 10px 16px;
@@ -948,6 +959,9 @@ code {
 
   table.responsive td:first-child {
     padding-top: 4px;
+    /* 桌面端首列被挤成「对话翻 / 译」两行，这里恢复自动换行 */
+    width: auto;
+    white-space: normal;
   }
 
   table.responsive td:last-child {
