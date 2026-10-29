@@ -171,33 +171,20 @@ a:hover {
   width: 36px;
   height: 36px;
   flex: none;
-  border-radius: 10px;
+  display: block;
+  border-radius: 22.5%;
   background: var(--brand);
-  color: #ffffff;
-  display: grid;
-  place-items: center;
-  font-size: 13px;
-  font-weight: 800;
-  letter-spacing: 0;
-  line-height: 1;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06);
+  -webkit-user-drag: none;
 }
 
 .brand-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.15;
-  min-width: 0;
-}
-
-.brand-text strong {
   font-size: 15px;
+  font-weight: 700;
   letter-spacing: 0.01em;
-}
-
-.brand-text span {
-  font-size: 11px;
-  color: var(--ink-2);
+  line-height: 1.2;
   white-space: nowrap;
+  min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -888,6 +875,20 @@ table.responsive td:first-child {
 @media (max-width: 640px) {
   .header-inner {
     padding: 10px 16px;
+    gap: 10px;
+  }
+
+  .brand {
+    gap: 8px;
+  }
+
+  .brand-mark {
+    width: 32px;
+    height: 32px;
+  }
+
+  .brand-text {
+    font-size: 13.5px;
   }
 
   .hero {
